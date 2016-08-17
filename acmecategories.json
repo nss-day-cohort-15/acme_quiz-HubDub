@@ -1,0 +1,12 @@
+{
+    "categories": [
+        {
+            "id": 0,
+            "name": "Things to halt Road Runner"
+        },
+        {
+            "id": 1,
+            "name": "Things you drop on Road Runner"
+        }
+    ]
+}

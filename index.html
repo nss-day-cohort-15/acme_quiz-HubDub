@@ -9,11 +9,41 @@
   <div class="container">
     <div class="well">
       <h1>Acme Explosives</h1>
-      <h2>We haven't blown a person up in years!</h2>
+      <h2>Helping Coyote Get Road Runner since 1929!</h2>
     </div>
   </div>
-  <h3>Hello Acme Customers</h3>
-  <div id="writeHere"></div>
+  <h3>Hello Acme Customers: What are you shopping for?</h3>
+  <!-- <div class="container"> -->
+    <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle btn-lg" type="button" id="dropdownMenu1" data-toggle="dropdown">Product Categories
+      <span class="caret"></span>
+      </button>
+        <ul class="dropdown-menu">
+          <li>
+            <a class="test" id="halt" tabindex="-1" href="#">Things to Halt Road Runner<span class="caret"></span></a>
+            <!-- <ul class="dropdown-menu">
+              <li><a tabindex="-1" href="#">Road Runner Food</a></li>
+              <li><a tabindex="-1" href="#">Roadblocks</a></li>
+              <li><a tabindex="-1" href="#">Holes</a></li>
+            </ul> -->
+          </li>
+          <!-- <li class="dropdown-submenu"> -->
+          <li>
+          <a class="test" id="drop" href="#">Things to Drop On Road Runner<span class="caret"></span></a>
+            <!-- <ul class="dropdown-menu">
+              <li><a tabindex="-1" href="#">Anvils</a></li>
+              <li><a tabindex="-1" href="#">Pianos</a></li>
+              <li><a tabindex="-1" href="#">Boulders</a></li>
+            </ul> -->
+          </li>
+        </ul>
+    </div>
+
+
+  <!-- </div> -->
+  <div id="productsGoHere"></div>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="acmejava.js"></script>
 </body>
 </html>
