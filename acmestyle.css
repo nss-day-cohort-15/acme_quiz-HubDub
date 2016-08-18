@@ -6,3 +6,7 @@ h1 {
   background-color: orange;
   text-align: center;
 }
+
+.productcards {
+  border: 1px black solid;
+}

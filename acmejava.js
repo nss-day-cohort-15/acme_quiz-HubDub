@@ -36,24 +36,27 @@ var Acme = (function () {
         // console.log(productsObject.products[17]);
         // console.log(productsObject.products[17].large_boulder.name);
         // console.log(productsObject.products[17].large_boulder.type);
-        Acme.activateEvents(typesObject, catsObject, productsObject)
+        var categoryArray = catsObject.categories;
+        var typesArray = typesObject.types;
+        var productsArray = productsObject.products;
+        Acme.activateEvents(categoryArray, typesArray, productsArray)
         //we can pull out the products down to a particular value in the particular product object. can we pull out all objects based on the value of the type of the products and then the value of the category of the type.Why can't I pass these array outside this function?
       });
       // console.log("it gets here")
       // console.log("this object is empty", typesObject);
     },
     //this listens for which category they choose in the drop menu and sends the data to the correct catgory populate function
-    activateEvents: function (typesObject, catsObject, productsObject) {
+    activateEvents: function (categoryArray, typesArray, productsArray) {
       $("#halt").click(function(e){
         console.log(e, "you clicked to HALT Road Runner");
-        Acme.popHaltRR(typesObject, catsObject, productsObject);
-        // console.log(catsObject);  //the Objects with their arrays get here
-        // console.log(typesObject);
-        // console.log(productsObject);
+        console.log("inside activateEvents: ", typesArray);  //the Objects with their arrays get here
+        console.log("inside activateEvents: ", categoryArray);
+        console.log("inside activateEvents: ", productsArray);
+        Acme.popHaltRR(categoryArray, typesArray, productsArray);
       });
       $("#drop").click(function(e) {
         console.log(e, "you clicked to DROP something on RR");
-        Acme.popDropRR(typesObject, catsObject, productsObject);
+        Acme.popDropRR(categoryArray, typesArray, productsArray);
       });
     }
   }
