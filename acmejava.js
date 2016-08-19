@@ -49,9 +49,9 @@ var Acme = (function () {
     activateEvents: function (categoryArray, typesArray, productsArray) {
       $("#halt").click(function(e){
         console.log(e, "you clicked to HALT Road Runner");
-        console.log("inside activateEvents: ", typesArray);  //the Objects with their arrays get here
-        console.log("inside activateEvents: ", categoryArray);
-        console.log("inside activateEvents: ", productsArray);
+        // console.log("inside activateEvents: ", typesArray);  //the Objects with their arrays get here
+        // console.log("inside activateEvents: ", categoryArray);
+        // console.log("inside activateEvents: ", productsArray);
         Acme.popHaltRR(categoryArray, typesArray, productsArray);
       });
       $("#drop").click(function(e) {

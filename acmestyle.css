@@ -7,6 +7,9 @@ h1 {
   text-align: center;
 }
 
-.productcards {
-  border: 1px black solid;
+.productCards {
+  border: 2px black solid;
+  min-height: 175px;
+  border-radius:25px;
+  text-align: center;
 }
