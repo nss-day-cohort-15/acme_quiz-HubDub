@@ -1,20 +1,6 @@
 console.log("acmejava is on deck");
-
-// $(document).ready(function(){
-//   $('.dropdown-submenu a.test').on("click", function(e){
-//     $(this).next('ul').toggle();
-//     e.stopPropagation();
-//     e.preventDefault();
-//   });
-// });
-
 var Acme = (function () {
-  // var catsObject = {};
-  // var typesObject = {};
-  // var productsObject = {};
-  //it seems to work without declaring empty variables in the IIFE scope
   return {
-    //this function will use promises to grab the data from the json files and store it
     storeInventory: function () {
       Promise.all([
       $.getJSON("acmecategories.json"),
@@ -62,21 +48,6 @@ var Acme = (function () {
   }
 }(Acme || {}));
 Acme.storeInventory();
-
-//the then statement wants a function.
-//or you can do them one at a time ...
-
-// var myPromise = new Promise(function(){
-//   newData = $.getJSON("acmecategories.json")
-//   resolve(newData.categories)
-// })
-
-// var cats, types, prods;
-// myPromise.then(function(categoryArray){
-//   console.log(categoryArray)
-//   cats = categoryArray;
-
-// })
 
 
 
