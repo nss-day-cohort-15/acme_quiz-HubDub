@@ -1,0 +1,147 @@
+{
+    "products": [{
+        "Food_pebbles": {
+            "id": 0,
+            "type": 0,
+            "name": "RR Food Pebbles",
+            "description": "Pebbles of food that Road Runner will certainly stop to eat so you can drop something on him."
+        }
+    },
+    {
+        "coyote_cracklings": {
+            "id": 1,
+            "type": 0,
+            "name": "Coyote Cracklings",
+            "description": "Road Runner will certainly stop to dine on these crispy coyote cracklings, so that you can drop something on him."
+        }
+    },
+    {
+        "bowl-soup": {
+            "id": 2,
+            "type": 0,
+            "name": "Bowl of Soup",
+            "description": "When Road Runner is feeling under the weather, he'll certainly stop running for this fortifying bowl of soup, so that you can drop something on him."
+        }
+    },
+    {
+        "caution_tape": {
+            "id": 3,
+            "type": 1,
+            "name": "Caution Tape",
+            "description": "An inexpensive roadblock for a coyote on a budget."
+        }
+    },
+    {
+        "wood_sawhorse": {
+            "id": 4,
+            "type": 1,
+            "name": "Wooden Sawhorse",
+            "description": "A medium strength roadblock that is sturdier than the caution tape but still designed for a coyote budget."
+        }
+    },
+    {
+        "brick_wall": {
+            "id": 5,
+            "type": 1,
+            "name": "Brick Wall",
+            "description": "For the coyote that is not concerned about cost, this wall cannot be broken down by the Road Runner. It is gauranteed to stop him in his tracks."
+        }
+    },
+    {
+        "small_potholes": {
+            "id": 6,
+            "type": 2,
+            "name": "Small Potholes",
+            "description": "If you want a moving target, but at a slower speed, these potholes are perfect. They'll slow Road Runner so you can drop something on him with a little more challenge."
+        }
+    },
+    {
+        "medium_holes": {
+            "id": 7,
+            "type": 2,
+            "name": "Medium Size Hole",
+            "description": "This hole is perfect for the coyote on a budget who wants a hole big enough to swallow Road Runner if he doesn't stop but not big enough to bust the budget."
+        }
+    },
+    {
+        "cliff": {
+            "id": 8,
+            "type": 2,
+            "name": "cliff",
+            "description": "When smaller holes aren't slowing or stopping Road Runner and budget isn't a concern then we can dig you a cliff. If he doesn't stop then he'll fall to his doom and you won't have to drop something on him."
+        }
+    },
+    {
+        "small_anvil": {
+            "id": 9,
+            "type": 3,
+            "name": "Small Anvil",
+            "description": "Perfect dropping item for the coyote on a budget. This won't knock Road Runner out, but should slow him down with a good braining."
+        }
+    },
+    {
+        "medium_anvil": {
+            "id": 10,
+            "type": 3,
+            "name": "Medium Anvil",
+            "description": "Solid item to drop on Road Runner without totally breaking the budget. A well aimed hit will bash RR into the dirt."
+        }
+    },
+    {
+        "large_anvil": {
+            "id": 11,
+            "type": 3,
+            "name": "Large Anvil",
+            "description": "Perfect dropping item for the coyote with imperfect aim. This very large object should smash Road Runner and the immediate area around him into the ground."
+        }
+    },
+    {
+        "upright_piano": {
+            "id": 12,
+            "type": 4,
+            "name": "Upright Piano",
+            "description": "An solution to smash Road Runner with musical style."
+        }
+    },
+    {
+        "grand_piano": {
+            "id": 13,
+            "type": 4,
+            "name": "Grand Piano",
+            "description": "Perfect tool to drop on Road Runner to show total cartoon style and ettiquette."
+        }
+    },
+    {
+        "player_piano": {
+            "id": 14,
+            "type": 4,
+            "name": "Player Piano",
+            "description": "Dropping a player piano on Road Runner shows both cartoon style ettiquette but also artistry as once he is smashed into the ground you can have the piano play his death march."
+        }
+    },
+    {
+        "small_boulder_bunch": {
+            "id": 15,
+            "type": 5,
+            "name": "Small Bunch of Boulders",
+            "description": "For the coyote on a budget, this bunch of boulders can help you brain coyote without breaking the bank."
+        }
+    },
+    {
+        "medium_boulder": {
+            "id": 16,
+            "type": 5,
+            "name": "Medium Boulder",
+            "description": "A solid and traditional fall back, the medium size boulder is a budget conscious way to smash Road Runner with out worrying about flair."
+        }
+    },
+    {
+        "large_boulder": {
+            "id": 17,
+            "type": 5,
+            "name": "Large Boulder",
+            "description": "For the older coyote who cannot aim quite as well or to just make sure to cover a large area to get the job done, a large boulder will smash both Road Runner and a large area around him  to bits - offering coyote more flexibility in aim."
+        }
+    }
+  ]
+}

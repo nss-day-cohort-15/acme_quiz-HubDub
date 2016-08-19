@@ -1,0 +1,40 @@
+{
+    "types": [
+        {
+            "id": 0,
+            "category": 0,
+            "name": "Food",
+            "description": "Food is a great way to make Road Runner stop so you can drop something on him."
+        },
+        {
+            "id": 1,
+            "category": 0,
+            "name": "Roadblocks",
+            "description": "Blocking the road is a good way to stop Road Runner so you can drop something on him."
+        },
+        {
+            "id": 2,
+            "category": 0,
+            "name": "holes",
+            "description": "if food and roadblocks don't stop Road Runner from running, try holes in the ground, from small to slow him to huge to stop him in his tracks."
+        },
+        {
+            "id": 3,
+            "category": 1,
+            "name": "Anvils",
+            "description": "Anvils are traditional items to drop on Road Runner"
+        },
+        {
+            "id": 4,
+            "category": 1,
+            "name": "Pianos",
+            "description": "Every coyote should have a stash of pianos to drop on Road Runner with style and pinache."
+        },
+        {
+            "id": 5,
+            "category": 1,
+            "name": "Boulders",
+            "description": "When traditional or stylish aren't meeting your needs, fall back on the old standby and drop a boulder on that pesky Road Runner."
+        }
+    ]
+}
